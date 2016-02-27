@@ -5,26 +5,25 @@
 }
 
 body {
-	padding: 1em;
+	
 	
 	font-family: Tahoma, sans-serif;
 	font-size: 12pt;
 }
 
 h1 {
+	margin: 1em;
 	text-align: center;
 	font-size: 1.75em;
 }
 
 .section-container {
-	margin-top: 2em;
+	margin: 1em;
 }
 
 .section-section {
 	float: left;
 	padding: 0.5em; /*.section-content=margin*/
-	
-	border: 1px dashed blue;
 }
 
 .section-border {
@@ -64,6 +63,8 @@ h1 {
 .section-text {
 	margin-top: 2em;
 	padding: 0.5em 0.5em 1em;
+	
+	text-align: justify;
 }
 
 
@@ -72,6 +73,10 @@ h1 {
 	
 	.sl-1, .sl-2 {
 		width: 100%;
+	}
+	
+	.section-title {
+		width: 40%;
 	}
 	
 }
@@ -83,12 +88,12 @@ h1 {
 		width: 50%;
 	}
 	
-	.sl-1 .section-title {
-		width: 40%;
-	}
-	
 	.sl-2 {
 		width: 100%;
+	}
+	
+	.sl-1 .section-title {
+		width: 40%;
 	}
 	
 	.sl-2 .section-title {
@@ -100,13 +105,12 @@ h1 {
 /*   Desktop Layout   */
 @media screen and (min-width: 992px) {
 	
-	.section-title {
-		width: 40%;
-	}
-	
-	
 	.sl-1, .sl-2 {
 		width: 33.33%;
+	}
+	
+	.section-title {
+		width: 40%;
 	}
 	
 }
